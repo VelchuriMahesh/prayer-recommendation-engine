@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(to bottom right, #fef9f7, #f7e8d0);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 2rem;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.jesus-image {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 70%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  margin-top: 1rem;
+  background-color: #b08968;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a67c52;
+}
+
+#result {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #5a3e2b;
+}
